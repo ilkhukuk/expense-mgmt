@@ -12,8 +12,7 @@ Gider hesaplamak için oluşturulan basit bir javascript app
 HTML5 CSS3 JavaScript
 ````
 
-<img src="https://github.com/ilkhukuk/expense-mgmt/blob/main/screen.gif>
-
+![](screen.gif)
 
 # Yapılacaklar
 
