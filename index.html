@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/cal-icon.png" />
+    <title>Evdeki Hesap Çarşıya Uymaz!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header><span>HARCAMA HESAPLAYICI</span></header>
+
+    <section>
+        <div class="left">
+            <h1>HOŞGELDİNİZ</h1>
+            <input type="text" placeholder="Adınızı Girin" id="username">
+            <hr width="150px">
+            <h2>Harcamalarınızı
+                <h2>Hesaplayabilirsiniz</h2>
+            </h2>
+        </div>
+        <div class="middle">
+            <!--input area-->
+            <div class="input-area">
+                <div class="safa">
+                    <label for="">Harcamalar :</label>
+                    <input type="text" id="inputx" placeholder="Harcama Kalemi Girin" required>
+                </div>
+                <div class="safa">
+                    <label for="">Fiyatı :</label>
+                    <input type="number" id="inputy" placeholder="Fiyatını Girin" required>
+                </div>
+            </div>
+
+            <!--click area-->
+            <div class="click-area">
+                <label for="">Ödemesi Yapıldı Mı ?</label>
+                <input type="checkbox" name="" id="checkbox">
+            </div>
+
+            <!--Button area-->
+            <button type="button" id="addx">EKLE</button>
+
+            <!--Summit area-->
+            <div class="summit">Toplam Harcama :<span id="sum-price">0</span><span>&#x20BA;</span></div>
+
+
+        </div>
+        <!--Alınan değerlerin gösterilmesi-->
+        <div class="right">
+            <div class="filtre" >
+                <select id="select">
+                    <option value="all">Hepsi</option>
+                    <option value="payed">Ödenenler</option>
+                    <option value="not-payed">Ödenmeyenler</option>
+                </select>
+            </div>
+            <div class="list" id="list"></div>
+        </div>
+    </section>
+    <footer>Tüm hakları saklıdır. &copy; 2023 - ilkhukuk</footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
